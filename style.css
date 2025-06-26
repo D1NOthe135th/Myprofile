@@ -1,11 +1,36 @@
 body {
-background-color: turquoise;    
+background-color: rgb(36, 36, 36);    
 }
 h1 {text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
-}
+color: olivedrab;}
+
 h3 {color: olivedrab;}
 img {
 width: 212px;
 height: auto;
 }
+
+ .my-interests {background-color: rgb(179, 179, 9);}
+ .my-button {background-color: rgb(194, 22, 194);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: none;
+}
+
+.image-grid {
+display: grid;
+grid-column: auto;
+gap: 10px;    
+}
+
+.image-grid img {
+width: 100px;
+height: auto;
+border-radius: 8px;    
+}
+
+ .site-info {background-color: darkred;}
+
+ .fav-links {background-color: rgb(5, 109, 5);}
+
+ .image-grid {background-color: navy;}
